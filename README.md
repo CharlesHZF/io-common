@@ -2,6 +2,11 @@
 IO Common – contains io libraries and utilities needed by other modules
 
 
+###client sample
+```java
+Set<Class<?>> set = ScannerUtil.getClasses(pack);
+```
+
 ###maven
 ```xml
 <dependency>
